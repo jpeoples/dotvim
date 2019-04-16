@@ -1,3 +1,30 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git@github.com:tpope/vim-pathogen.git
+[submodule "pack/pathogen-plugins/start/vim-sensible"]
+	path = pack/pathogen-plugins/start/vim-sensible
+	url = git@github.com:tpope/vim-sensible.git
+[submodule "pack/pathogen-plugins/start/vim-surround"]
+	path = pack/pathogen-plugins/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "pack/pathogen-plugins/start/auto-pairs"]
+	path = pack/pathogen-plugins/start/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "pack/pathogen-plugins/start/vim-colors-solarized"]
+	path = pack/pathogen-plugins/start/vim-colors-solarized
+	url = git@github.com:altercation/vim-colors-solarized.git
+[submodule "pack/pathogen-plugins/start/vim-trailing-whitespace"]
+	path = pack/pathogen-plugins/start/vim-trailing-whitespace
+	url = git@github.com:bronson/vim-trailing-whitespace.git
+[submodule "pack/pathogen-plugins/start/tabular"]
+	path = pack/pathogen-plugins/start/tabular
+	url = git@github.com:godlygeek/tabular.git
+[submodule "pack/pathogen-plugins/start/nerdcommenter"]
+	path = pack/pathogen-plugins/start/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "pack/pathogen-plugins/start/nerdtree"]
+	path = pack/pathogen-plugins/start/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "pack/pathogen-plugins/start/vim-table-mode"]
+	path = pack/pathogen-plugins/start/vim-table-mode
+	url = git@github.com:dhruvasagar/vim-table-mode.git

@@ -1,38 +1,11 @@
+" Use pathogen as a submodule https://github.com/tpope/vim-pathogen#faq
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+
 set nocompatible
 filetype off
 
 
-
-"vim sensible
-Plugin 'tpope/vim-sensible'
-
-" Useful plugins esp for code
-"surround and auto-pairs
-Plugin 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
-
-"Solarized colorscheme
-Plugin 'altercation/vim-colors-solarized'
-
-"Vim trailing whitespace!
-Plugin 'bronson/vim-trailing-whitespace'
-
-" tabular
-Plugin 'godlygeek/tabular'
-
-
-" nerd commenter
-Plugin 'scrooloose/nerdcommenter'
-
-" Useful plugins for getting files
-"Nerd Tree
-Plugin 'scrooloose/nerdtree'
-
-
-" Useful plugins for note-taking, writing, and documenting
-
-" Markdown tables
-Plugin 'dhruvasagar/vim-table-mode'
+execute pathogen#infect()
 
 
 " Configure markdown corners for vim-table-mode
