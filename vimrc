@@ -203,7 +203,7 @@ endfunction
 
 
 
-"inoremap <C-D> <C-R>=strftime("%d-%m-%Y")<CR>
-
 " yyyy-mm-dd date stamp
-inoremap <C-d> <C-R>=strftime("%Y-%m-%d")<CR>
+inoremap <Leader>dd <C-R>=strftime("%Y-%m-%d")<CR>
+" yyyy-mm-dd, hh:mm:ss time stamp
+inoremap <Leader>dt <C-R>=strftime("%Y-%m-%d, %H:%M:%S ")<CR>
