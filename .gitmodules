@@ -28,3 +28,6 @@
 [submodule "pack/pathogen-plugins/start/vim-table-mode"]
 	path = pack/pathogen-plugins/start/vim-table-mode
 	url = git@github.com:dhruvasagar/vim-table-mode.git
+[submodule "pack/pathogen-plugins/start/ctrlp"]
+	path = pack/pathogen-plugins/start/ctrlp
+	url = git@github.com:ctrlpvim/ctrlp.vim.git
