@@ -207,3 +207,5 @@ endfunction
 inoremap <Leader>dd <C-R>=strftime("%Y-%m-%d")<CR>
 " yyyy-mm-dd, hh:mm:ss time stamp
 inoremap <Leader>dt <C-R>=strftime("%Y-%m-%d, %H:%M:%S ")<CR>
+inoremap <Leader>kmem <C-v>u2014
+inoremap <Leader>kmen <C-v>u2013
